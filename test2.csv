@@ -1,0 +1,1098 @@
+,0
+Cohort 1 - MWP - Apparel Group - 27 Apr15 to 04Oct15.xlsx,"         Status             Site  Export Code  Info  Tags  Day       Date  \
+0      Approved  Bonds Highpoint       199871   NaN   NaN  Mon 2015-04-27   
+1      Approved  Bonds Warringah       312129   NaN   NaN  Mon 2015-04-27   
+2      Approved  Bonds Warringah       312129   NaN   NaN  Thu 2015-04-30   
+3      Approved  Bonds Southland       310282   NaN   NaN  Mon 2015-04-27   
+4      Approved      Bonds Wagga       312604   NaN   NaN  Mon 2015-04-27   
+...         ...              ...          ...   ...   ...  ...        ...   
+26929  Approved    BO Gold Coast       199356   NaN   NaN  Wed 2015-09-30   
+26930  Approved    BO Gold Coast       199356   NaN   NaN  Thu 2015-10-01   
+26931  Approved    BO Gold Coast       199356   NaN   NaN  Fri 2015-10-02   
+26932  Approved    BO Gold Coast       199356   NaN   NaN  Sat 2015-10-03   
+26933  Approved    BO Gold Coast       199356   NaN   NaN  Sun 2015-10-04   
+
+                Shift Type          Clock Start         Sched Start  ...  Var  \
+0             ANNUAL LEAVE             00:00:00 2015-04-27 08:00:00  ...  0.0   
+1      SICK PAID WITH CERT             00:00:00 2015-04-27 09:15:00  ...  0.0   
+2      SICK PAID WITH CERT             00:00:00 2015-04-30 11:45:00  ...  0.0   
+3            NORMAL Casual  2015-04-27 08:59:00 2015-04-27 09:00:00  ...  5.0   
+4            NORMAL Casual  2015-04-27 11:10:00 2015-04-27 11:12:00  ...  3.2   
+...                    ...                  ...                 ...  ...  ...   
+26929               ABSENT             00:00:00 2015-09-30 09:00:00  ...  0.0   
+26930               ABSENT             00:00:00 2015-10-01 09:00:00  ...  0.0   
+26931               ABSENT             00:00:00 2015-10-02 09:00:00  ...  0.0   
+26932               ABSENT             00:00:00 2015-10-03 09:10:00  ...  0.0   
+26933               ABSENT             00:00:00 2015-10-04 09:40:00  ...  0.0   
+
+      Employee Type                             Role Auth  Unnamed: 22  \
+0         Full Time  Bonds Highpoint\Sales Assistant  NaN          NaN   
+1         Part Time  Bonds Warringah\Sales Assistant  NaN          NaN   
+2         Part Time  Bonds Warringah\Sales Assistant  NaN          NaN   
+3            Casual  Bonds Southland\Sales Assistant  NaN          NaN   
+4            Casual      Bonds Wagga\Sales Assistant  NaN          NaN   
+...             ...                              ...  ...          ...   
+26929     Full Time    BO Gold Coast\Sales Assistant  NaN          NaN   
+26930     Full Time    BO Gold Coast\Sales Assistant  NaN          NaN   
+26931     Full Time    BO Gold Coast\Sales Assistant  NaN          NaN   
+26932     Full Time    BO Gold Coast\Sales Assistant  NaN          NaN   
+26933     Full Time    BO Gold Coast\Sales Assistant  NaN          NaN   
+
+       pay_cd      pay_description  Unnamed: 25  Salary Code  \
+0         612         ANNUAL LEAVE       ABSENT         RPL1   
+1        6SPC  SICK PAID WITH CERT       ABSENT         RPL1   
+2        6SPC  SICK PAID WITH CERT       ABSENT         RPL1   
+3        101C        NORMAL Casual     ORDINARY         RCL1   
+4        101C        NORMAL Casual     ORDINARY         RC20   
+...       ...                  ...          ...          ...   
+26929     6AB               ABSENT       ABSENT         RPL1   
+26930     6AB               ABSENT       ABSENT         RPL1   
+26931     6AB               ABSENT       ABSENT         RPL1   
+26932     6AB               ABSENT       ABSENT         RPL1   
+26933     6AB               ABSENT       ABSENT         RPL1   
+
+                     Unnamed: 27  
+0      ADULT RETAIL PERM LEVEL 1  
+1      ADULT RETAIL PERM LEVEL 1  
+2      ADULT RETAIL PERM LEVEL 1  
+3            ADULT RETAIL CASULA  
+4         20 YEARS RETAIL CASUAL  
+...                          ...  
+26929  ADULT RETAIL PERM LEVEL 1  
+26930  ADULT RETAIL PERM LEVEL 1  
+26931  ADULT RETAIL PERM LEVEL 1  
+26932  ADULT RETAIL PERM LEVEL 1  
+26933  ADULT RETAIL PERM LEVEL 1  
+
+[26934 rows x 28 columns]"
+Cohort 1 - MWP - Sheridan Group - 27 Apr15 to 25Oct15.xlsx,"       Status                      Site  Export Code  Info  Tags  Day  \
+0         NaN         Retail - DJ Civic       851830   NaN   NaN  Mon   
+1         NaN     Retail - DJ Brookvale       852049   NaN   NaN  Mon   
+2         NaN  Retail - DJ Campbelltown       851627   NaN   NaN  Mon   
+3         NaN       Retail - SFO Darwin       852117   NaN   NaN  Mon   
+4         NaN      Retail - Castle Hill       852090   NaN   NaN  Mon   
+...       ...                       ...          ...   ...   ...  ...   
+25206     NaN       Retail - SFO Orange       852241   NaN   NaN  Sun   
+25207     NaN     Retail - DJ Chermside       852259   NaN   NaN  Sun   
+25208     NaN     Retail - SFO Tamworth       852283   NaN   NaN  Sun   
+25209     NaN     Retail - SFO Tamworth       852039   NaN   NaN  Sun   
+25210     NaN     Retail - SFO Tamworth       851897   NaN   NaN  Sun   
+
+            Date           Shift Type          Clock Start  \
+0     2015-04-27  SICK PAID WITH CERT             00:00:00   
+1     2015-04-27         ANNUAL LEAVE             00:00:00   
+2     2015-04-27            Non Leave  2015-04-27 09:30:00   
+3     2015-04-27            Non Leave  2015-04-27 08:45:00   
+4     2015-04-27            Non Leave  2015-04-27 09:00:00   
+...          ...                  ...                  ...   
+25206 2015-10-25            Non Leave  2015-10-25 11:02:00   
+25207 2015-10-25            Non Leave  2015-10-25 12:00:00   
+25208 2015-10-25            Non Leave  2015-10-25 11:17:00   
+25209 2015-10-25            Non Leave  2015-10-25 09:41:00   
+25210 2015-10-25               ABSENT             00:00:00   
+
+              Sched Start  ...   Var Employee Type  \
+0     2015-04-27 11:00:00  ...  0.00          Perm   
+1     2015-04-27 10:00:00  ...  0.00          Perm   
+2     2015-04-27 09:30:00  ...  0.00          Perm   
+3     2015-04-27 08:45:00  ...  0.00          Perm   
+4     2015-04-27 09:00:00  ...  0.00          Perm   
+...                   ...  ...   ...           ...   
+25206 2015-10-25 11:00:00  ...  0.00        Casual   
+25207 2015-10-25 12:00:00  ...  0.00        Casual   
+25208 2015-10-25 11:15:00  ...  3.75        Casual   
+25209 2015-10-25 10:00:00  ...  5.50          Perm   
+25210 2015-10-25 10:00:00  ...  0.00          Perm   
+
+                                           Role Auth.  Unnamed: 22  pay_cd  \
+0             Retail - DJ Civic\Sales Assistant   NaN          NaN    6SPC   
+1         Retail - DJ Brookvale\Sales Assistant   NaN          NaN     612   
+2      Retail - DJ Campbelltown\Sales Assistant   NaN          NaN     101   
+3           Retail - SFO Darwin\Sales Assistant   NaN          NaN     101   
+4          Retail - Castle Hill\Sales Assistant   NaN          NaN     101   
+...                                         ...   ...          ...     ...   
+25206       Retail - SFO Orange\Sales Assistant   NaN          NaN     133   
+25207     Retail - DJ Chermside\Sales Assistant   NaN          NaN     133   
+25208     Retail - SFO Tamworth\Sales Assistant   NaN          NaN     133   
+25209     Retail - SFO Tamworth\Sales Assistant   NaN          NaN     133   
+25210     Retail - SFO Tamworth\Sales Assistant   NaN          NaN     6AB   
+
+           pay_description  pay_category  modified_classification_cd  \
+0      SICK PAID WITH CERT        ABSENT                        RPL1   
+1             ANNUAL LEAVE        ABSENT                        RPL1   
+2                   NORMAL      ORDINARY                        RPL1   
+3                   NORMAL      ORDINARY                        RPL1   
+4                   NORMAL      ORDINARY                        RPL1   
+...                    ...           ...                         ...   
+25206          SUNDAY RATE     PENALTIES                        RCL1   
+25207          SUNDAY RATE     PENALTIES                        RC20   
+25208          SUNDAY RATE     PENALTIES                        RC18   
+25209          SUNDAY RATE     PENALTIES                        RPL1   
+25210               ABSENT        ABSENT                        RPL1   
+
+               class_description  
+0      ADULT RETAIL PERM LEVEL 1  
+1      ADULT RETAIL PERM LEVEL 1  
+2      ADULT RETAIL PERM LEVEL 1  
+3      ADULT RETAIL PERM LEVEL 1  
+4      ADULT RETAIL PERM LEVEL 1  
+...                          ...  
+25206        ADULT RETAIL CASULA  
+25207     20 YEARS RETAIL CASUAL  
+25208     18 YEARS RETAIL CASUAL  
+25209  ADULT RETAIL PERM LEVEL 1  
+25210  ADULT RETAIL PERM LEVEL 1  
+
+[25211 rows x 28 columns]"
+Cohort 1 - Riteq New - Apparel Group - 01Jul18 to 30Jun19.xlsx,"             Status                       Site  Export Code Info  Tags  Day  \
+0          Approved  1217 Bonds Kids Bondi Jun       313209  NaN   NaN  Tue   
+1          Approved  1217 Bonds Kids Bondi Jun       313209  NaN   NaN  Fri   
+2          Approved  1217 Bonds Kids Bondi Jun       313209  NaN   NaN  Sun   
+3          Approved  1217 Bonds Kids Bondi Jun       313209  NaN   NaN  Sun   
+4          Approved  1217 Bonds Kids Bondi Jun       313209  NaN   NaN  Sun   
+...             ...                        ...          ...  ...   ...  ...   
+162933      Absence            1870 BO Hampton       196394  NaN   NaN  Sun   
+162934      Absence            1873 BO Leopold       196445  NaN   NaN  Sun   
+162935      Absence              1501 BO Perth       231015  NaN   NaN  Sun   
+162936      Absence       1823 Bonds Doncaster       196699  NaN   NaN  Sun   
+162937  Not Started  6812 Bonds Myer Southland       196650  NaN   NaN  Sun   
+
+             Date            Shift Type Clock Start Sched Start  ...  \
+0      2018-07-24             Non Leave       11:28       11:30  ...   
+1      2018-07-27             Non Leave       12:42       12:45  ...   
+2      2018-08-12             Non Leave       14:12       14:15  ...   
+3      2018-08-19             Non Leave       14:13       14:15  ...   
+4      2018-09-16             Non Leave       14:14       14:15  ...   
+...           ...                   ...         ...         ...  ...   
+162933 2018-07-01   Annual Leave SUNDAY         AL2       09:45  ...   
+162934 2018-07-01      Sick/CarersNOPAY         SLN         N/S  ...   
+162935 2018-07-01  Time in Lieu - Taken         TIL       10:30  ...   
+162936 2018-07-01       Cancelled Shift         CAN       11:00  ...   
+162937 2018-07-01             Non Leave           -       10:00  ...   
+
+       Sched End Pay End  Break Pay Hours Brk Cnt Sched Hours     Var  \
+0          15:00   15:00      -     03:30       0       03:30       -   
+1          15:45   15:45      -     03:00       0       03:00       -   
+2          17:15   17:15      -     03:00       0       03:00       -   
+3          17:15   17:15      -     03:00       0       03:00       -   
+4          17:45   17:45      -     03:30       0       03:30       -   
+...          ...     ...    ...       ...     ...         ...     ...   
+162933     17:15   17:15  00:30     07:00       1       07:00       -   
+162934         -   17:15      -     04:39       0           -  +04:39   
+162935     17:15   17:15  00:30     06:15       1       06:15       -   
+162936     15:00   15:00      -     04:00       0       04:00       -   
+162937     13:00       -      -         -       0       03:00       -   
+
+       Employee Type                 Role             Auth.  
+0             Casual      Sales Assistant               NaN  
+1             Casual      Sales Assistant               NaN  
+2             Casual      Sales Assistant               NaN  
+3             Casual      Sales Assistant               NaN  
+4             Casual      Sales Assistant               NaN  
+...              ...                  ...               ...  
+162933     Part Time      Sales Assistant      Seija Wilson  
+162934      Salaried  Assistant Store Mgr        TERI HENRY  
+162935      Salaried  Assistant Store Mgr      TRAN BOYLAND  
+162936        Casual      Sales Assistant  RACHEL PATTERSON  
+162937        Casual      Sales Assistant  COURTNEY CAMERON  
+
+[162938 rows x 22 columns]"
+Cohort 1 - Riteq New - Apparel Group - 01Jul19 to 30Jun20.xlsx,"            Status                       Site  Export Code  \
+0         Approved  1217 Bonds Kids Bondi Jun       313209   
+1         Approved  1217 Bonds Kids Bondi Jun       313209   
+2         Approved  1217 Bonds Kids Bondi Jun       313209   
+3         Approved  1217 Bonds Kids Bondi Jun       313209   
+4         Approved  1217 Bonds Kids Bondi Jun       313209   
+...            ...                        ...          ...   
+159217    Approved       1823 Bonds Doncaster       196849   
+159218    Approved       1823 Bonds Doncaster       196849   
+159219    Approved       1823 Bonds Doncaster       196849   
+159220  Unapproved       1823 Bonds Doncaster       196849   
+159221    Approved       1823 Bonds Doncaster       196849   
+
+                                                     Info  Tags  Day  \
+0                                                     NaN   NaN  Thu   
+1                                                     NaN   NaN  Sat   
+2                                                     NaN   NaN  Thu   
+3       Exception Reason/s\n        Agreed to start early   NaN  Sat   
+4            Exception Reason/s\n        Sick Leave Cover   NaN  Sun   
+...                                                   ...   ...  ...   
+159217                                                NaN   NaN  Sun   
+159218                                                NaN   NaN  Fri   
+159219                                                NaN   NaN  Sat   
+159220                                                NaN   NaN  Sun   
+159221                                                NaN   NaN  Sun   
+
+             Date Shift Type Clock Start Sched Start  ... Sched End Pay End  \
+0      2019-07-04  Non Leave       12:11       12:15  ...     15:15   15:15   
+1      2019-07-06  Non Leave       13:14       13:15  ...     17:15   17:15   
+2      2019-07-11  Non Leave       12:09       12:15  ...     15:15   15:15   
+3      2019-07-13  Non Leave       12:43       13:15  ...     16:15   16:15   
+4      2019-07-14  Non Leave       10:05         N/S  ...         -   13:45   
+...           ...        ...         ...         ...  ...       ...     ...   
+159217 2020-06-21  Non Leave       12:00       12:00  ...     16:00   16:00   
+159218 2020-06-26  Non Leave       11:57       12:00  ...     16:00   16:00   
+159219 2020-06-27  Non Leave       12:58       13:00  ...     17:00   17:00   
+159220 2020-06-28  Non Leave       16:09         N/S  ...         -   16:16   
+159221 2020-06-28  Non Leave       11:54       12:00  ...     16:00   16:12   
+
+       Break Pay Hours Brk Cnt Sched Hours     Var Employee Type  \
+0          -     03:00       0       03:00       -        Casual   
+1          -     04:00       0       04:00       -        Casual   
+2          -     03:00       0       03:00       -        Casual   
+3          -     03:30       0       03:00  +00:30        Casual   
+4          -     03:30       0           -  +03:30        Casual   
+...      ...       ...     ...         ...     ...           ...   
+159217     -     04:00       0       04:00       -        Casual   
+159218     -     04:00       0       04:00       -        Casual   
+159219     -     04:00       0       04:00       -        Casual   
+159220     -     00:01       0           -  +00:01        Casual   
+159221     -     04:12       0       04:00  +00:12        Casual   
+
+                   Role           Auth.  
+0       Sales Assistant             NaN  
+1       Sales Assistant             NaN  
+2       Sales Assistant             NaN  
+3       Sales Assistant  FATEMA HUSSAIN  
+4       Sales Assistant  FATEMA HUSSAIN  
+...                 ...             ...  
+159217  Sales Assistant             NaN  
+159218  Sales Assistant             NaN  
+159219  Sales Assistant    MARLEY MCKAY  
+159220  Sales Assistant             NaN  
+159221  Sales Assistant             NaN  
+
+[159222 rows x 22 columns]"
+Cohort 1 - Riteq New - Apparel Group - 01Jul20 to 02May21.xlsx,"             Status                       Site  Export Code  \
+0          Approved  1217 Bonds Kids Bondi Jun       313209   
+1          Approved  1217 Bonds Kids Bondi Jun       313209   
+2          Approved  1217 Bonds Kids Bondi Jun       313209   
+3          Approved  1217 Bonds Kids Bondi Jun       313209   
+4          Approved  1217 Bonds Kids Bondi Jun       313209   
+...             ...                        ...          ...   
+119934      Absence       1219 Bonds MacArthur       314396   
+119935      Absence        7202 Champion Bondi       313417   
+119936      Absence        7202 Champion Bondi       313417   
+119937  Not Started            1874 BO Mildura       197548   
+119938  Not Started            1874 BO Mildura       197557   
+
+                                                     Info  Tags  Day  \
+0                                                     NaN   NaN  Thu   
+1                                                     NaN   NaN  Sun   
+2                                                     NaN   NaN  Thu   
+3       Exception Reason/s\n        Agreed to finish e...   NaN  Sat   
+4                                                     NaN   NaN  Thu   
+...                                                   ...   ...  ...   
+119934                                                NaN   NaN  Sun   
+119935                                                NaN   NaN  Sun   
+119936                                                NaN   NaN  Tue   
+119937                                                NaN   NaN  Sun   
+119938                                                NaN   NaN  Sun   
+
+             Date        Shift Type Clock Start Sched Start  ... Sched End  \
+0      2020-07-02         Non Leave       15:11       15:15  ...     19:15   
+1      2020-07-05         Non Leave       10:14       10:15  ...     17:15   
+2      2020-07-09         Non Leave       15:08       15:15  ...     19:15   
+3      2020-07-11         Non Leave       09:51       09:45  ...     15:15   
+4      2020-07-16         Non Leave       11:59       12:00  ...     19:15   
+...           ...               ...         ...         ...  ...       ...   
+119934 2021-05-02  Sick/CarersNOPAY         SLN       11:00  ...     16:00   
+119935 2021-04-25    Public Holiday         PHL       09:45  ...     18:15   
+119936 2021-04-27   Sick/Carers PAY         SLV       12:00  ...     17:00   
+119937 2021-04-25         Non Leave           -       12:45  ...     17:15   
+119938 2021-04-25         Non Leave           -       13:00  ...     16:00   
+
+       Pay End  Break Pay Hours Brk Cnt Sched Hours  Var Employee Type  \
+0        19:15      -     04:00       0       04:00    -        Casual   
+1        17:15  00:30     06:30       1       06:30    -        Casual   
+2        19:15      -     04:00       0       04:00    -        Casual   
+3        15:15  00:30     05:00       1       05:00    -        Casual   
+4        19:15  00:30     06:45       1       06:45    -        Casual   
+...        ...    ...       ...     ...         ...  ...           ...   
+119934   16:00      -     05:00       0       05:00    -        Casual   
+119935   18:15  00:30     08:00       1       08:00    -      Salaried   
+119936   17:00      -     05:00       0       05:00    -      Salaried   
+119937       -  00:30         -       1       04:00    -        Casual   
+119938       -      -         -       0       03:00    -        Casual   
+
+                       Role             Auth.  
+0           Sales Assistant               NaN  
+1           Sales Assistant  STEPHANIE KNIGHT  
+2           Sales Assistant               NaN  
+3           Sales Assistant      Seija Wilson  
+4           Sales Assistant               NaN  
+...                     ...               ...  
+119934      Sales Assistant       KASEY MILAT  
+119935  Assistant Store Mgr    PARISSA VARGAS  
+119936  Assistant Store Mgr    PARISSA VARGAS  
+119937           Key Holder   BONNIE BEAUMONT  
+119938      Sales Assistant   BONNIE BEAUMONT  
+
+[119939 rows x 22 columns]"
+Cohort 1 - Riteq New - BNT - 01Jul19 to 30Jun20.xlsx,"             Status                 Site  Export Code  \
+0        Unapproved      6026 Kalgoorlie        84997   
+1        Unapproved   3059 Plenty Valley        81864   
+2          Approved      6017 Rockingham        84468   
+3          Approved      6017 Rockingham        84468   
+4          Approved      6017 Rockingham        84468   
+...             ...                  ...          ...   
+181180  Not Started  4074 Sunshine Plaza        74963   
+181181  Not Started  4074 Sunshine Plaza        74963   
+181182  Not Started  4074 Sunshine Plaza        74963   
+181183  Not Started       3014 Frankston        84293   
+181184  Not Started    3025 Melbourne Ce        84839   
+
+                                                     Info Tags  Day  \
+0                                                     NaN  NaN  Sat   
+1                                                     NaN  NaN  Sun   
+2                                                     NaN  NaN  Thu   
+3       Exception Reason/s\n        Area Manager appro...  NaN  Sat   
+4                                                     NaN  NaN  Sat   
+...                                                   ...  ...  ...   
+181180                                                NaN  NaN  Wed   
+181181                                                NaN  NaN  Thu   
+181182                                                NaN  NaN  Sun   
+181183                                                NaN  NaN  Wed   
+181184                                                NaN  NaN  Fri   
+
+             Date Shift Type Clock Start Sched Start  ... Sched End Pay End  \
+0      2020-05-30  Non Leave       15:18         N/S  ...         -   23:59   
+1      2019-08-04  Non Leave       15:07         N/S  ...         -     WRK   
+2      2019-11-21  Non Leave       15:55       16:00  ...     19:00   19:00   
+3      2019-11-30  Non Leave       10:55       12:00  ...     15:00   15:00   
+4      2019-12-07  Non Leave       09:55       10:00  ...     15:00   15:00   
+...           ...        ...         ...         ...  ...       ...     ...   
+181180 2019-10-09  Non Leave           -       09:00  ...     17:40       -   
+181181 2019-10-10  Non Leave           -       09:00  ...     17:30       -   
+181182 2019-10-13  Non Leave           -       10:00  ...     16:10       -   
+181183 2019-12-04  Non Leave           -       12:00  ...     15:00       -   
+181184 2020-01-03  Non Leave           -       12:00  ...     15:00       -   
+
+        Break Pay Hours Brk Cnt Sched Hours      Var Employee Type  \
+0           -     07:49       0           -   +07:49     Part Time   
+1           -    *23:59       0           -  *+23:59     Part Time   
+2           -     03:00       0       03:00        -        Casual   
+3           -     04:00       0       03:00   +01:00        Casual   
+4           -     05:00       0       05:00        -        Casual   
+...       ...       ...     ...         ...      ...           ...   
+181180  00:40         -       1       08:00        -      Salaried   
+181181  00:40         -       1       07:50        -      Salaried   
+181182  00:40         -       1       05:30        -      Salaried   
+181183      -         -       0       03:00        -        Casual   
+181184      -         -       0       03:00        -        Casual   
+
+                       Role             Auth.  
+0                Key Holder               NaN  
+1               Team Member               NaN  
+2               Team Member     Emily Ritchie  
+3               Team Member     Emily Ritchie  
+4               Team Member               NaN  
+...                     ...               ...  
+181180  Assistant Store Mgr  Meredith Auboire  
+181181  Assistant Store Mgr  Meredith Auboire  
+181182  Assistant Store Mgr  Meredith Auboire  
+181183          Team Member        Amy Attard  
+181184          Team Member       Lucy Wilson  
+
+[181185 rows x 22 columns]"
+Cohort 1 - Riteq New - BNT - 01Jul20 to 02May21.xlsx,"             Status                 Site  Export Code  \
+0          Approved      2084 Rouse Hill        84288   
+1          Approved      2084 Rouse Hill        84288   
+2          Approved      2084 Rouse Hill        84288   
+3          Approved      2084 Rouse Hill        84288   
+4          Approved      2084 Rouse Hill        84288   
+...             ...                  ...          ...   
+140559      Absence  4074 Sunshine Plaza        74963   
+140560      Absence  4074 Sunshine Plaza        74963   
+140561      Absence      2091 Orana Mall        82842   
+140562  Not Started       6022 Booragoon        85168   
+140563  Not Started       6022 Booragoon        85779   
+
+                                                     Info Tags  Day  \
+0                                                     NaN  NaN  Fri   
+1                                                     NaN  NaN  Thu   
+2                                                     NaN  NaN  Fri   
+3                                                     NaN  NaN  Fri   
+4                                                     NaN  NaN  Fri   
+...                                                   ...  ...  ...   
+140559                                                NaN  NaN  Mon   
+140560                                                NaN  NaN  Mon   
+140561  Exception Reason/s\n        Agreed to finish e...  NaN  Wed   
+140562                                                NaN  NaN  Sat   
+140563                                                NaN  NaN  Sat   
+
+             Date      Shift Type Clock Start Sched Start  ... Sched End  \
+0      2020-07-17       Non Leave       09:59       10:00  ...     17:10   
+1      2020-07-23       Non Leave       10:59       11:00  ...     19:10   
+2      2020-07-24       Non Leave       09:00       09:00  ...     16:10   
+3      2020-08-07       Non Leave       08:55       09:00  ...     16:10   
+4      2020-08-14       Non Leave       09:51       10:00  ...     17:10   
+...           ...             ...         ...         ...  ...       ...   
+140559 2021-04-26  Public Holiday         PHL       09:00  ...     10:00   
+140560 2021-04-26  Public Holiday         PHL       16:10  ...     17:40   
+140561 2021-04-28  Adm/Trng M-Sat         ADM         N/S  ...         -   
+140562 2021-04-24       Non Leave           -       12:10  ...     17:10   
+140563 2021-04-24       Non Leave           -       11:00  ...     15:00   
+
+       Pay End  Break Pay Hours Brk Cnt Sched Hours     Var Employee Type  \
+0        17:10  00:40     06:30       1       06:30       -     Part Time   
+1        19:10  00:40     07:30       1       07:30       -     Part Time   
+2        16:10  00:40     06:30       1       06:30       -     Part Time   
+3        16:10  00:40     06:30       1       06:30       -     Part Time   
+4        17:10  00:40     06:30       1       06:30       -     Part Time   
+...        ...    ...       ...     ...         ...     ...           ...   
+140559   10:00      -     01:00       0       01:00       -      Salaried   
+140560   17:40      -     01:30       0       01:30       -      Salaried   
+140561   16:00      -     03:00       0           -  +03:00      Salaried   
+140562       -      -         -       0       05:00       -        Casual   
+140563       -      -         -       0       04:00       -        Casual   
+
+                       Role               Auth.  
+0               Team Member                 NaN  
+1               Team Member                 NaN  
+2               Team Member                 NaN  
+3               Team Member                 NaN  
+4               Team Member                 NaN  
+...                     ...                 ...  
+140559  Assistant Store Mgr  Lavinia Richardson  
+140560  Assistant Store Mgr    Meredith Auboire  
+140561  Assistant Store Mgr      Brittany Moore  
+140562          Team Member       Emily Ritchie  
+140563          Team Member       Emily Ritchie  
+
+[140564 rows x 22 columns]"
+Cohort 1 - Riteq New - Merchandisers - 16Jul18 to 02May21.xlsx,"            Status           Site  Export Code First Name Last Name  \
+0         Approved  Merchandising        18132      ADELE   WILDASH   
+1         Approved  Merchandising        18132      ADELE   WILDASH   
+2         Approved  Merchandising        18132      ADELE   WILDASH   
+3         Approved  Merchandising        18132      ADELE   WILDASH   
+4         Approved  Merchandising        18132      ADELE   WILDASH   
+...            ...            ...          ...        ...       ...   
+30931  Not Started  Merchandising       640113      ZOSIA  RABURSKI   
+30932  Not Started  Merchandising       640113      ZOSIA  RABURSKI   
+30933  Not Started  Merchandising       640113      ZOSIA  RABURSKI   
+30934  Not Started  Merchandising       640113      ZOSIA  RABURSKI   
+30935  Not Started  Merchandising       640113      ZOSIA  RABURSKI   
+
+                                                    Info  Tags  Day  \
+0      Exception Reason/s\n        Agreed to finish e...   NaN  Tue   
+1                                                    NaN   NaN  Wed   
+2                                                    NaN   NaN  Thu   
+3                                                    NaN   NaN  Tue   
+4                                                    NaN   NaN  Wed   
+...                                                  ...   ...  ...   
+30931                                                NaN   NaN  Tue   
+30932                                                NaN   NaN  Wed   
+30933                                                NaN   NaN  Thu   
+30934                                                NaN   NaN  Fri   
+30935                                                NaN   NaN  Tue   
+
+            Date Shift Type  ... Sched End Pay End  Break Pay Hours Brk Cnt  \
+0     2018-09-11  Non Leave  ...     15:00   15:00  00:30     05:30       1   
+1     2018-09-12  Non Leave  ...     15:00   15:00  00:30     05:30       1   
+2     2018-09-13  Non Leave  ...     15:00   15:00  00:30     05:30       1   
+3     2018-09-18  Non Leave  ...     15:00   15:00  00:30     05:30       1   
+4     2018-09-19  Non Leave  ...     15:00   15:00  00:30     05:30       1   
+...          ...        ...  ...       ...     ...    ...       ...     ...   
+30931 2020-05-19  Non Leave  ...     14:30       -  00:30         -       1   
+30932 2020-05-20  Non Leave  ...     14:30       -  00:30         -       1   
+30933 2020-05-21  Non Leave  ...     14:00       -  00:30         -       1   
+30934 2020-05-22  Non Leave  ...     14:00       -  00:30         -       1   
+30935 2020-05-26  Non Leave  ...     14:30       -  00:30         -       1   
+
+      Sched Hours Var Employee Type              Role           Auth.  
+0           05:30   -     Part Time  Sales Consultant     Karen Stone  
+1           05:30   -     Part Time  Sales Consultant     Simone Marr  
+2           05:30   -     Part Time  Sales Consultant     Simone Marr  
+3           05:30   -     Part Time  Sales Consultant     Simone Marr  
+4           05:30   -     Part Time  Sales Consultant     Simone Marr  
+...           ...  ..           ...               ...             ...  
+30931       06:00   -     Part Time  Sales Consultant  Heather Fiddes  
+30932       06:00   -     Part Time  Sales Consultant  Heather Fiddes  
+30933       05:00   -     Part Time  Sales Consultant  Heather Fiddes  
+30934       05:00   -     Part Time  Sales Consultant  Heather Fiddes  
+30935       06:00   -     Part Time  Sales Consultant  Heather Fiddes  
+
+[30936 rows x 24 columns]"
+Cohort 1 - Riteq New - Sheridan Group - 01Jul18 to 30Jun19.xlsx,"             Status                       Site  Export Code   First Name  \
+0          Approved         0070 SFO Joondalup       850267        MARIA   
+1          Approved    0637 Boutique Macquarie       854098     MADDISON   
+2          Approved         0012 SFO Liverpool       854003        HEIDE   
+3          Approved                 0644 Bondi       853663     SHAHRZAD   
+4          Approved    0637 Boutique Macquarie       854387  RAJA MOHSIN   
+...             ...                        ...          ...          ...   
+103942  Not Started             0610 Karrinyup       853940      REBECCA   
+103943  Not Started           0028 SFO Bunbury       851213     ROSEMARY   
+103944  Not Started         0034 SFO Bundaberg       853120        SUSAN   
+103945  Not Started                0604 Mosman       851001      SUZANNE   
+103946  Not Started  0061 SFO Birkenhead Point       854017       ZINING   
+
+                 Last Name                                               Info  \
+0                      ACE                                                NaN   
+1                  AFFLECK  Exception Reason/s\n        Agreed to finish e...   
+2                  AGUILAR  Exception Reason/s\n        Agreed to start early   
+3       AKBARZADEH POOLADI  Exception Reason/s\n        Vein scanner not w...   
+4                   AKHTAR                                                NaN   
+...                    ...                                                ...   
+103942               HAYES                                                NaN   
+103943      ANTONIOLLI-COE                                                NaN   
+103944            FIELDING                                                NaN   
+103945               YOUNG                                                NaN   
+103946                 TAN                                                NaN   
+
+        Tags  Day       Date Shift Type  ... Sched End Pay End  Break  \
+0        NaN  Mon 2018-07-16  Non Leave  ...     17:30   17:30  00:30   
+1        NaN  Mon 2018-07-16  Non Leave  ...     17:30   17:00  00:30   
+2        NaN  Mon 2018-07-16  Non Leave  ...     18:15   18:15  00:30   
+3        NaN  Mon 2018-07-16  Non Leave  ...         -   17:00      -   
+4        NaN  Mon 2018-07-16  Non Leave  ...     17:00   17:00  00:30   
+...      ...  ...        ...        ...  ...       ...     ...    ...   
+103942   NaN  Thu 2018-07-12  Non Leave  ...     21:00       -      -   
+103943   NaN  Sat 2018-07-14  Non Leave  ...     16:30       -  00:30   
+103944   NaN  Wed 2018-07-11  Non Leave  ...     14:00       -      -   
+103945   NaN  Tue 2018-07-10  Non Leave  ...     17:30       -  00:30   
+103946   NaN  Sat 2018-07-07  Non Leave  ...     15:00       -      -   
+
+       Pay Hours Brk Cnt Sched Hours     Var Employee Type  \
+0          08:00       1       08:00       -     Part Time   
+1          07:30       1       08:00  -00:30        Casual   
+2          08:45       1       08:15  +00:30      Salaried   
+3          05:00       0           -  +05:00        Casual   
+4          08:00       1       08:00       -        Casual   
+...          ...     ...         ...     ...           ...   
+103942         -       0       03:00       -        Casual   
+103943         -       1       06:00       -     Part Time   
+103944         -       0       04:00       -        Casual   
+103945         -       1       07:00       -     Part Time   
+103946         -       0       04:00       -        Casual   
+
+                       Role               Auth.  
+0           Sales Assistant    SUSANNE BRADBURY  
+1           Sales Assistant       JULIETTE KAUR  
+2       Assistant Store Mgr       HEIDE AGUILAR  
+3           Sales Assistant          ROBYN GRAY  
+4           Sales Assistant       JULIETTE KAUR  
+...                     ...                 ...  
+103942      Sales Assistant     MICHELLE CULLEN  
+103943      Sales Assistant     MICHELLE ROGERS  
+103944      Sales Assistant         TRACEY BALL  
+103945           Key Holder          ANNA KEPPO  
+103946      Sales Assistant  MATTHEW LINDENBERG  
+
+[103947 rows x 24 columns]"
+Cohort 1 - Riteq New - Sheridan Group - 01Jul19 to 30Jun20.xlsx,"         Status                       Site  Export Code First Name Last Name  \
+0      Approved             0650 Carindale       853726      MEGAN      ABEE   
+1      Approved         0070 SFO Joondalup       850267      MARIA       ACE   
+2      Approved  0672 Studio Indooroopilly       853543  ELIZABETH    ALCORN   
+3      Approved     0653 Brighton Boutique       853398    DEBORAH    ANDERS   
+4      Approved          0102 DJ Chatswood       854463      JAIME  ANDERSON   
+...         ...                        ...          ...        ...       ...   
+97606   Absence        0074 SFO Mornington       854245     KRISTY    WOODEN   
+97607  Approved        0011 SFO Launceston       853363   MARGARET     WOODS   
+97608  Approved       0010 SFO Harbourtown       853731      CEYDA     YENER   
+97609  Approved      0907 SFO Shellharbour       854625     EVELYN    ZIOGAS   
+97610  Approved        0902 SFO Townsville       854518      SARAH     ZOMER   
+
+                                                    Info  Tags  Day  \
+0                                                    NaN   NaN  Mon   
+1                                                    NaN   NaN  Mon   
+2                                                    NaN   NaN  Mon   
+3                                                    NaN   NaN  Mon   
+4                                                    NaN   NaN  Mon   
+...                                                  ...   ...  ...   
+97606  Exception Reason/s\n        Add details or sel...   NaN  Tue   
+97607                                                NaN   NaN  Tue   
+97608                                                NaN   NaN  Tue   
+97609  Exception Reason/s\n        Agreed to start ea...   NaN  Tue   
+97610                                                NaN   NaN  Tue   
+
+            Date  Shift Type  ... Sched End Pay End  Break Pay Hours Brk Cnt  \
+0     2019-07-01   Non Leave  ...     17:45   17:45  00:30     08:30       1   
+1     2019-07-01   Non Leave  ...     17:30   17:30  00:30     08:00       1   
+2     2019-07-01   Non Leave  ...     17:15   17:15  00:30     08:00       1   
+3     2019-07-01   Non Leave  ...     17:00   17:00  00:30     06:30       1   
+4     2019-07-01   Non Leave  ...     17:30   17:30  00:30     07:30       1   
+...          ...         ...  ...       ...     ...    ...       ...     ...   
+97606 2020-06-30  Alv Top Up  ...         -   21:00      -     12:00       0   
+97607 2020-06-30   Non Leave  ...     15:00   15:00      -     03:00       0   
+97608 2020-06-30   Non Leave  ...     16:00   16:00  00:30     05:30       1   
+97609 2020-06-30   Non Leave  ...     16:15   16:15  00:30     07:15       1   
+97610 2020-06-30   Non Leave  ...     16:15   16:15  00:30     06:00       1   
+
+      Sched Hours     Var Employee Type                 Role  \
+0           08:30       -      Salaried  Assistant Store Mgr   
+1           08:00       -     Part Time      Sales Assistant   
+2           08:00       -      Salaried        Store Manager   
+3           06:30       -        Casual      Sales Assistant   
+4           07:30       -      Salaried  Assistant Store Mgr   
+...           ...     ...           ...                  ...   
+97606           -  +12:00      Salaried        Store Manager   
+97607       03:00       -        Casual      Sales Assistant   
+97608       05:30       -     Part Time      Sales Assistant   
+97609       06:00  +01:15      Salaried        Store Manager   
+97610       06:00       -      Salaried        Store Manager   
+
+                    Auth.  
+0      Michaela Wilkinson  
+1                     NaN  
+2        ELIZABETH ALCORN  
+3                     NaN  
+4          SHI YING LEONG  
+...                   ...  
+97606       KRISTY WOODEN  
+97607                 NaN  
+97608          YVE NEWMAN  
+97609       EVELYN ZIOGAS  
+97610                 NaN  
+
+[97611 rows x 24 columns]"
+Cohort 1 - Riteq New - Sheridan Group - 01Jul20 to 02May21.xlsx,"            Status                       Site  Export Code First Name  \
+0          Absence         0070 SFO Joondalup       850267      MARIA   
+1         Approved            0073 SFO Albury       855010    JESSICA   
+2         Approved            0025 SFO Darwin       854564    SHARMIN   
+3         Approved  0672 Studio Indooroopilly       853543  ELIZABETH   
+4         Approved     0653 Brighton Boutique       853398    DEBORAH   
+...            ...                        ...          ...        ...   
+85729      Absence           0268 Myer Morley       851938   VICTORIA   
+85730      Absence          0020 SFO Homebush       854519      VIPUL   
+85731      Absence          0020 SFO Homebush       854519      VIPUL   
+85732      Absence              0108 DJ Civic       851631        YIN   
+85733  Not Started             0647 Chadstone       855183   MICHAELA   
+
+      Last Name                                               Info  Tags  Day  \
+0           ACE                                                NaN   NaN  Wed   
+1         ADLER                                                NaN   NaN  Wed   
+2         AKTAR                                                NaN   NaN  Wed   
+3        ALCORN                                                NaN   NaN  Wed   
+4        ANDERS                                                NaN   NaN  Wed   
+...         ...                                                ...   ...  ...   
+85729     LEWIS                                                NaN   NaN  Sat   
+85730     DUSAD                                                NaN   NaN  Wed   
+85731     DUSAD                                                NaN   NaN  Tue   
+85732     LIANG  Exception Reason/s\n        Add details or sel...   NaN  Sat   
+85733  MCKINNON                                                NaN   NaN  Wed   
+
+            Date            Shift Type  ... Sched End Pay End  Break  \
+0     2020-07-01    Long Service Leave  ...     17:30   17:30  00:30   
+1     2020-07-01             Non Leave  ...     16:15   16:15      -   
+2     2020-07-01             Non Leave  ...     15:00   15:00      -   
+3     2020-07-01             Non Leave  ...     15:45   15:45  00:30   
+4     2020-07-01             Non Leave  ...     16:15   16:15      -   
+...          ...                   ...  ...       ...     ...    ...   
+85729 2021-04-24  NoticePdPreStandDown  ...     15:00   15:00      -   
+85730 2021-04-21       Cancelled Shift  ...     15:00   15:00      -   
+85731 2021-04-27       Cancelled Shift  ...     18:00   18:00  00:30   
+85732 2021-05-01       Sick/Carers PAY  ...         -   18:00  00:30   
+85733 2021-04-28             Non Leave  ...     17:00       -  00:30   
+
+      Pay Hours Brk Cnt Sched Hours     Var Employee Type             Role  \
+0         08:00       1       08:00       -     Part Time  Sales Assistant   
+1         04:15       0       04:15       -        Casual  Sales Assistant   
+2         03:00       0       03:00       -        Casual  Sales Assistant   
+3         06:30       1       06:30       -      Salaried    Store Manager   
+4         05:00       0       05:00       -        Casual  Sales Assistant   
+...         ...     ...         ...     ...           ...              ...   
+85729     05:00       0       05:00       -     Part Time  Sales Assistant   
+85730     05:00       0       05:00       -        Casual  Sales Assistant   
+85731     07:30       1       07:30       -        Casual  Sales Assistant   
+85732     05:54       1           -  +05:54      Salaried    Store Manager   
+85733         -       1       05:30       -        Casual  Sales Assistant   
+
+                     Auth.  
+0         SUSANNE BRADBURY  
+1                      NaN  
+2                      NaN  
+3         ELIZABETH ALCORN  
+4                      NaN  
+...                    ...  
+85729      Emma Mucciarone  
+85730       ALISON ELLIOTT  
+85731       RACHEL RAYWARD  
+85732            YIN LIANG  
+85733  CONSTANTINA SKLIRIS  
+
+[85734 rows x 24 columns]"
+Cohort 1 - Riteq Old - Apparel Group - 01Jul16 to 30Jun17.xlsx,"                     Status             Site  Export Code Info  Tags  Day  \
+0       Approved And Locked  1871 BO Prahran       199958  NaN   NaN  Sat   
+1       Approved And Locked  1871 BO Prahran       199958  NaN   NaN  Mon   
+2       Approved And Locked  1871 BO Prahran       199958  NaN   NaN  Wed   
+3       Approved And Locked  1871 BO Prahran       199958  NaN   NaN  Thu   
+4       Approved And Locked  1871 BO Prahran       199958  NaN   NaN  Fri   
+...                     ...              ...          ...  ...   ...  ...   
+135629             Approved  1871 BO Prahran       195016  NaN   NaN  Mon   
+135630             Approved  1871 BO Prahran       195016  NaN   NaN  Tue   
+135631             Approved  1871 BO Prahran       195016  NaN   NaN  Thu   
+135632             Approved  1871 BO Prahran       195016  NaN   NaN  Fri   
+135633             Approved  1871 BO Prahran       195016  NaN   NaN  Sat   
+
+             Date Shift Type Clock Start Sched Start  ... Sched End Pay End  \
+0      2016-07-02  Non Leave       10:03       10:00  ...     18:00   16:30   
+1      2016-07-04  Non Leave       09:19       09:15  ...     18:15   18:15   
+2      2016-07-06  Non Leave       09:02       09:00  ...     18:00   18:00   
+3      2016-07-07  Non Leave       12:01       12:00  ...     17:00   15:00   
+4      2016-07-15  Non Leave       09:48       09:00  ...     18:00   15:00   
+...           ...        ...         ...         ...  ...       ...     ...   
+135629 2016-12-19  Non Leave       08:43       08:45  ...     18:15   18:24   
+135630 2016-12-20  Non Leave       08:59       09:00  ...     18:15   18:15   
+135631 2016-12-22  Non Leave       13:10         N/S  ...         -   17:00   
+135632 2016-12-23  Non Leave       09:00       09:00  ...     18:00   18:00   
+135633 2016-12-24  Non Leave       09:05       09:00  ...     17:15   17:15   
+
+        Break Pay Hours Brk Cnt Sched Hours     Var Employee Type  \
+0       00:30     06:00       1       07:30  -01:30        Casual   
+1       00:30     08:30       1       08:30       -        Casual   
+2       00:30     08:30       1       08:30       -        Casual   
+3           -     03:00       0       05:00  -02:00        Casual   
+4           -     05:00       0       08:30  -03:30        Casual   
+...       ...       ...     ...         ...     ...           ...   
+135629  00:30     09:09       1       09:00  +00:09     Part Time   
+135630  00:30     08:45       1       08:45       -     Part Time   
+135631      -     04:00       0           -  +04:00     Part Time   
+135632  00:30     08:30       1       08:30       -     Part Time   
+135633  00:30     07:45       1       07:45       -     Part Time   
+
+                   Role            Auth.  
+0       Sales Assistant  ANGHARAD MCCOLL  
+1       Sales Assistant              NaN  
+2       Sales Assistant              NaN  
+3       Sales Assistant   JAMILA CHAPMAN  
+4       Sales Assistant   JAMILA CHAPMAN  
+...                 ...              ...  
+135629       Key Holder              NaN  
+135630  Sales Assistant              NaN  
+135631  Sales Assistant      HAYLEY AMOR  
+135632  Sales Assistant              NaN  
+135633  Sales Assistant              NaN  
+
+[135634 rows x 22 columns]"
+Cohort 1 - Riteq Old - Apparel Group - 01Jul17 to 30Jun18.xlsx,"             Status                       Site  Export Code Info  Tags  Day  \
+0        Unapproved  1218 Bonds Wetherill Park        19171  NaN   NaN  Wed   
+1          Approved         1819 Bonds Bendigo       196410  NaN   NaN  Wed   
+2          Approved         1819 Bonds Bendigo       196410  NaN   NaN  Thu   
+3          Approved         1819 Bonds Bendigo       196410  NaN   NaN  Fri   
+4          Approved         1819 Bonds Bendigo       196410  NaN   NaN  Thu   
+...             ...                        ...          ...  ...   ...  ...   
+151739  Not Started           1307 BO Jindalee       310942  NaN   NaN  Tue   
+151740  Not Started       1400 Bonds Canelands       313200  NaN   NaN  Wed   
+151741  Not Started       1400 Bonds Canelands       313200  NaN   NaN  Thu   
+151742  Not Started  6812 Bonds Myer Southland       196034  NaN   NaN  Wed   
+151743  Not Started  6812 Bonds Myer Southland       196034  NaN   NaN  Wed   
+
+             Date Shift Type Clock Start Sched Start  ... Sched End Pay End  \
+0      2017-11-01  Non Leave       08:46         N/S  ...         -   15:54   
+1      2017-07-05  Non Leave       11:12       11:15  ...     17:45   17:45   
+2      2017-07-06  Non Leave       15:15       15:15  ...     18:15   18:45   
+3      2017-07-07  Non Leave       08:44       08:45  ...     13:15   13:15   
+4      2017-07-13  Non Leave       12:14       12:15  ...     18:15   18:15   
+...           ...        ...         ...         ...  ...       ...     ...   
+151739 2018-01-23  Non Leave           -       13:00  ...     18:00       -   
+151740 2018-01-17  Non Leave           -       13:00  ...     17:45       -   
+151741 2018-06-21  Non Leave           -       12:30  ...     21:15       -   
+151742 2018-04-18  Non Leave           -       09:00  ...     12:00       -   
+151743 2018-05-09  Non Leave           -       09:00  ...     12:00       -   
+
+        Break Pay Hours Brk Cnt Sched Hours     Var Employee Type  \
+0       00:30     06:24       1           -  +06:24      Salaried   
+1       00:30     06:00       1       06:00       -        Casual   
+2           -     03:30       0       03:00  +00:30        Casual   
+3           -     04:30       0       04:30       -        Casual   
+4       00:30     05:30       1       05:30       -        Casual   
+...       ...       ...     ...         ...     ...           ...   
+151739      -         -       0       05:00       -        Casual   
+151740      -         -       0       04:45       -        Casual   
+151741  00:30         -       1       08:15       -        Casual   
+151742      -         -       0       03:00       -        Casual   
+151743      -         -       0       03:00       -        Casual   
+
+                   Role                      Auth.  
+0         Store Manager                        NaN  
+1            Key Holder                        NaN  
+2            Key Holder                        NaN  
+3            Key Holder                        NaN  
+4            Key Holder                        NaN  
+...                 ...                        ...  
+151739  Sales Assistant                DONNA DAVIS  
+151740       Key Holder  MIRANDA MCBRIDE WHITEHEAD  
+151741       Key Holder  MIRANDA MCBRIDE WHITEHEAD  
+151742  Sales Assistant           COURTNEY CAMERON  
+151743  Sales Assistant           COURTNEY CAMERON  
+
+[151744 rows x 22 columns]"
+Cohort 1 - Riteq Old - Apparel Group - 05Oct15 to 30Jun16.xlsx,"                    Status              Site  Export Code Info  Tags  Day  \
+0      Approved And Locked  1081 BO Brisbane      16474.0  NaN   NaN  Mon   
+1      Approved And Locked  1081 BO Brisbane      16474.0  NaN   NaN  Tue   
+2      Approved And Locked  1081 BO Brisbane      16474.0  NaN   NaN  Wed   
+3      Approved And Locked  1081 BO Brisbane      16474.0  NaN   NaN  Fri   
+4      Approved And Locked  1081 BO Brisbane      16474.0  NaN   NaN  Sat   
+...                    ...               ...          ...  ...   ...  ...   
+85829  Approved And Locked  1719 BO Essendon     991109.0  NaN   NaN  Tue   
+85830  Approved And Locked  1719 BO Essendon     991109.0  NaN   NaN  Thu   
+85831  Approved And Locked  1071 BO Homebush          NaN  NaN   NaN  Sun   
+85832   Absence And Locked  1071 BO Homebush          NaN  NaN   NaN  Sun   
+85833   Absence And Locked  1071 BO Homebush          NaN  NaN   NaN  Sun   
+
+            Date      Shift Type Clock Start Sched Start  ... Sched End  \
+0     2015-10-05       Non Leave    09:29:00    09:15:00  ...  18:15:00   
+1     2015-10-06       Non Leave       08:21       09:15  ...     18:15   
+2     2015-10-07       Non Leave       08:57         N/S  ...         -   
+3     2015-10-09       Non Leave       09:38       09:15  ...     18:15   
+4     2015-10-10       Non Leave           -       09:30  ...     18:15   
+...          ...             ...         ...         ...  ...       ...   
+85829 2016-06-28       Non Leave       08:42         N/S  ...         -   
+85830 2016-06-30       Non Leave       08:14       09:15  ...     18:15   
+85831 2016-03-27       Non Leave           -         N/S  ...         -   
+85832 2016-03-27  Public Holiday         PHL         N/S  ...         -   
+85833 2016-03-27  Public Holiday         PHL         N/S  ...         -   
+
+        Pay End     Break Pay Hours Brk Cnt Sched Hours     Var Employee Type  \
+0      18:15:00  00:30:00  08:30:00       1    08:30:00       -      Salaried   
+1         18:15     00:30     10:30       1       08:30  +02:00      Salaried   
+2         11:00         -     03:30       0           -  +03:30      Salaried   
+3         18:15     00:30     08:30       1       08:30       -      Salaried   
+4         18:15     00:30     08:15       1       08:15       -      Salaried   
+...         ...       ...       ...     ...         ...     ...           ...   
+85829     18:30     00:30     09:15       1           -  +09:15      Salaried   
+85830     18:24     00:30     09:39       1       08:30  +01:09      Salaried   
+85831     16:00     00:30     05:30       1           -  +05:30     Part Time   
+85832     10:00         -     01:00       0           -  +01:00     Part Time   
+85833     17:00         -     01:00       0           -  +01:00     Part Time   
+
+                      Role          Auth.  
+0            Store Manager  DEANN WILLMOT  
+1            Store Manager  DEANN WILLMOT  
+2            Store Manager  DEANN WILLMOT  
+3            Store Manager  DEANN WILLMOT  
+4            Store Manager  DEANN WILLMOT  
+...                    ...            ...  
+85829  Multi Store Manager   MIMA FERRARO  
+85830  Multi Store Manager   MIMA FERRARO  
+85831     New Store Refurb    Karen Stone  
+85832     New Store Refurb    Karen Stone  
+85833     New Store Refurb    Karen Stone  
+
+[85834 rows x 22 columns]"
+Cohort 1 - Riteq Old - Merchandisers - 10Oct16 to 15Jul18.xlsx,"            Status                Site  Export Code First Name Last Name Info  \
+0         Approved  0000 Merchandising        18132      ADELE   WILDASH  NaN   
+1         Approved  0000 Merchandising        18132      ADELE   WILDASH  NaN   
+2         Approved  0000 Merchandising        18132      ADELE   WILDASH  NaN   
+3         Approved  0000 Merchandising        18132      ADELE   WILDASH  NaN   
+4         Approved  0000 Merchandising        18132      ADELE   WILDASH  NaN   
+...            ...                 ...          ...        ...       ...  ...   
+27647  Not Started  0000 Merchandising       851323      TRACY   ELLIOTT  NaN   
+27648  Not Started  0000 Merchandising       851323      TRACY   ELLIOTT  NaN   
+27649  Not Started  0000 Merchandising       851323      TRACY   ELLIOTT  NaN   
+27650  Not Started  0000 Merchandising        16520   VICTORIA    OLIVER  NaN   
+27651  Not Started  0000 Merchandising        16520   VICTORIA    OLIVER  NaN   
+
+       Tags  Day       Date Shift Type  ... Sched End Pay End  Break  \
+0       NaN  Tue 2016-10-11  Non Leave  ...     14:30   15:30  00:30   
+1       NaN  Wed 2016-10-12  Non Leave  ...     14:30   15:30  00:30   
+2       NaN  Thu 2016-10-13  Non Leave  ...     14:30   15:30  00:30   
+3       NaN  Fri 2016-10-14  Non Leave  ...     14:30   14:30  00:30   
+4       NaN  Tue 2016-10-18  Non Leave  ...     14:30   15:30  00:30   
+...     ...  ...        ...        ...  ...       ...     ...    ...   
+27647   NaN  Sat 2016-10-22  Non Leave  ...     16:00       -  00:30   
+27648   NaN  Sun 2016-10-23  Non Leave  ...     16:00       -  00:30   
+27649   NaN  Wed 2016-11-16  Non Leave  ...     14:30       -  00:30   
+27650   NaN  Fri 2016-10-14  Non Leave  ...     15:00       -  00:30   
+27651   NaN  Tue 2016-11-01  Non Leave  ...     16:00       -  00:30   
+
+      Pay Hours Brk Cnt Sched Hours Var Employee Type              Role  \
+0         05:30       1       05:30   -     Part Time  Sales Consultant   
+1         05:30       1       05:30   -     Part Time  Sales Consultant   
+2         05:30       1       05:30   -     Part Time  Sales Consultant   
+3         05:30       1       05:30   -     Part Time  Sales Consultant   
+4         05:30       1       05:30   -     Part Time  Sales Consultant   
+...         ...     ...         ...  ..           ...               ...   
+27647         -       1       06:30   -     Part Time  Sales Consultant   
+27648         -       1       05:30   -     Part Time  Sales Consultant   
+27649         -       1       05:00   -     Part Time  Sales Consultant   
+27650         -       1       06:00   -     Part Time  Sales Consultant   
+27651         -       1       07:00   -     Part Time  Sales Consultant   
+
+                   Auth.  
+0          Justine Rouse  
+1          Justine Rouse  
+2          Justine Rouse  
+3          Justine Rouse  
+4      Jennifer Sherlock  
+...                  ...  
+27647        Karen Stone  
+27648        Karen Stone  
+27649     TANIA SAFFIOTI  
+27650  Jennifer Sherlock  
+27651  Jennifer Sherlock  
+
+[27652 rows x 24 columns]"
+Cohort 1 - Riteq Old - Sheridan Group - 01Jul16 to 30Jun17.xlsx,"         Status                       Site  Export Code Info  Tags  Day  \
+0      Approved     0401 DJ Melb Bourke St       853207  NaN   NaN  Mon   
+1      Approved     0401 DJ Melb Bourke St       853207  NaN   NaN  Tue   
+2      Approved     0401 DJ Melb Bourke St       853207  NaN   NaN  Wed   
+3      Approved     0401 DJ Melb Bourke St       853207  NaN   NaN  Thu   
+4      Approved     0401 DJ Melb Bourke St       853207  NaN   NaN  Mon   
+...         ...                        ...          ...  ...   ...  ...   
+92157  Approved  0032 SFO Adelaide Airport       853430  NaN   NaN  Sat   
+92158  Approved              0108 DJ Civic       853748  NaN   NaN  Sat   
+92159  Approved              0108 DJ Civic       853429  NaN   NaN  Sat   
+92160  Approved         0003 SFO Arncliffe       853456  NaN   NaN  Sat   
+92161  Approved          0041 SFO Fyshwick       851612  NaN   NaN  Sat   
+
+            Date Shift Type Clock Start Sched Start  ... Sched End Pay End  \
+0     2017-01-02  Non Leave       10:58       11:00  ...     19:00   19:00   
+1     2017-01-03  Non Leave       09:57       10:00  ...     18:00   18:00   
+2     2017-01-04  Non Leave       11:03       11:00  ...     19:00   19:00   
+3     2017-01-05  Non Leave       10:55       11:00  ...     19:00   19:00   
+4     2017-01-09  Non Leave       08:56       09:00  ...     14:00   14:00   
+...          ...        ...         ...         ...  ...       ...     ...   
+92157 2016-12-31  Non Leave       13:07       13:00  ...     17:00   17:12   
+92158 2016-12-31  Non Leave       09:25       09:30  ...     17:30   17:30   
+92159 2016-12-31  Non Leave       11:06       11:00  ...     14:00   16:00   
+92160 2016-12-31  Non Leave       08:52       09:00  ...     14:00   14:12   
+92161 2016-12-31  Non Leave       11:06         N/S  ...         -   17:00   
+
+       Break Pay Hours Brk Cnt Sched Hours     Var Employee Type  \
+0      00:30     07:30       1       07:30       -        Casual   
+1      00:30     07:30       1       08:00  -00:30        Casual   
+2      00:30     07:30       1       07:30       -        Casual   
+3      00:30     07:30       1       07:30       -        Casual   
+4          -     05:00       0       05:00       -        Casual   
+...      ...       ...     ...         ...     ...           ...   
+92157      -     04:06       0       04:00  +00:06        Casual   
+92158  00:30     07:30       1       07:30       -        Casual   
+92159      -     04:54       0       03:00  +01:54        Casual   
+92160      -     05:12       0       05:00  +00:12        Casual   
+92161  00:30     05:30       1           -  +05:30        Casual   
+
+                  Role         Auth.  
+0      Sales Assistant           NaN  
+1      Sales Assistant           NaN  
+2      Sales Assistant           NaN  
+3      Sales Assistant           NaN  
+4      Sales Assistant           NaN  
+...                ...           ...  
+92157  Sales Assistant           NaN  
+92158  Sales Assistant           NaN  
+92159  Sales Assistant     YIN LIANG  
+92160  Sales Assistant           NaN  
+92161  Sales Assistant  Seija Wilson  
+
+[92162 rows x 22 columns]"
+Cohort 1 - Riteq Old - Sheridan Group - 01Jul17 to 30Jun18.xlsx,"             Status                       Site  Export Code Info  Tags  Day  \
+0          Verified          0308 DJ Carindale       853085  NaN   NaN  Sat   
+1          Approved         0003 SFO Arncliffe       853814  NaN   NaN  Sat   
+2          Approved         0003 SFO Arncliffe       853814  NaN   NaN  Sat   
+3          Approved         0003 SFO Arncliffe       853814  NaN   NaN  Tue   
+4          Approved         0003 SFO Arncliffe       853814  NaN   NaN  Wed   
+...             ...                        ...          ...  ...   ...  ...   
+106954  Not Started  0044 SFO Brisbane Airport       853836  NaN   NaN  Fri   
+106955  Not Started  0061 SFO Birkenhead Point       853763  NaN   NaN  Mon   
+106956  Not Started          0404 DJ Southland       860419  NaN   NaN  Mon   
+106957  Not Started          0404 DJ Southland       860419  NaN   NaN  Thu   
+106958  Not Started       0071 SFO South Wharf       854061  NaN   NaN  Thu   
+
+             Date Shift Type Clock Start Sched Start  ... Sched End Pay End  \
+0      2017-10-28  Non Leave           -       09:00  ...     17:00   23:59   
+1      2017-10-07  Non Leave       09:08       09:00  ...     13:00   13:18   
+2      2017-11-11  Non Leave           -       09:00  ...     13:00   13:00   
+3      2017-11-28  Non Leave       09:10       09:00  ...     17:00   17:00   
+4      2017-11-29  Non Leave       13:00       13:00  ...     17:30   17:12   
+...           ...        ...         ...         ...  ...       ...     ...   
+106954 2018-06-01  Non Leave           -       13:00  ...     18:00       -   
+106955 2018-06-18  Non Leave           -       08:00  ...     17:45       -   
+106956 2018-02-12  Non Leave           -       09:30  ...     18:00       -   
+106957 2018-02-15  Non Leave           -       15:00  ...     21:00       -   
+106958 2018-04-26  Non Leave           -       14:15  ...     18:15       -   
+
+        Break Pay Hours Brk Cnt Sched Hours     Var Employee Type  \
+0           -     14:59       0       07:30  +07:29      Salaried   
+1           -     04:12       0       04:00  +00:12        Casual   
+2           -     04:00       0       04:00       -        Casual   
+3       00:30     07:30       1       07:30       -        Casual   
+4           -     04:12       0       04:30  -00:18        Casual   
+...       ...       ...     ...         ...     ...           ...   
+106954      -         -       0       05:00       -        Casual   
+106955  00:30         -       1       09:15       -        Casual   
+106956  00:30         -       1       08:00       -     Part Time   
+106957  00:30         -       1       05:30       -     Part Time   
+106958      -         -       0       04:00       -        Casual   
+
+                   Role               Auth.  
+0         Store Manager                 NaN  
+1       Sales Assistant        CINDY JANSEN  
+2       Sales Assistant        CINDY JANSEN  
+3       Sales Assistant        CINDY JANSEN  
+4       Sales Assistant        CINDY JANSEN  
+...                 ...                 ...  
+106954  Sales Assistant        ZALI GRAYSON  
+106955  Sales Assistant  MATTHEW LINDENBERG  
+106956  Sales Assistant       SUSANA LADSON  
+106957  Sales Assistant       SUSANA LADSON  
+106958  Sales Assistant    DEBRA CASTELLANO  
+
+[106959 rows x 22 columns]"
+Cohort 1 - Riteq Old - Sheridan Group - 26Oct15 to 30Jun16.xlsx,"                       Status                       Site  Export Code  \
+0         Approved And Locked          0102 DJ Chatswood       851536   
+1         Approved And Locked            0118 DJ Burwood       850919   
+2         Approved And Locked       0071 SFO South Wharf       853011   
+3          Absence And Locked          0803 DJ Booragoon       853384   
+4         Approved And Locked   0158 DJ K&B Queen Street       853067   
+...                       ...                        ...          ...   
+58270  Not Started And Locked          0404 DJ Southland       860419   
+58271  Not Started And Locked          0404 DJ Southland       860419   
+58272  Not Started And Locked  0032 SFO Adelaide Airport       852196   
+58273  Not Started And Locked              0108 DJ Civic       851631   
+58274  Not Started And Locked          0425 DJ Highpoint       852996   
+
+                                                    Info  Tags  Day  \
+0                                                    NaN   NaN  Fri   
+1                                                    NaN   NaN  Fri   
+2                                                    NaN   NaN  Fri   
+3                                                    NaN   NaN  Fri   
+4      Scheduled Shift Note\n        PLEASE CHARGE TO...   NaN  Fri   
+...                                                  ...   ...  ...   
+58270                                                NaN   NaN  Wed   
+58271                                                NaN   NaN  Mon   
+58272                                                NaN   NaN  Wed   
+58273                                                NaN   NaN  Mon   
+58274                                                NaN   NaN  Fri   
+
+            Date            Shift Type Clock Start Sched Start  ... Sched End  \
+0     2016-01-01             Non Leave       11:50       12:00  ...     18:00   
+1     2016-01-01             Non Leave       11:57       12:00  ...     18:00   
+2     2016-01-01             Non Leave       10:11       10:15  ...     18:15   
+3     2016-01-01  Time in Lieu - Taken         TIL       08:30  ...     12:30   
+4     2016-01-01             Non Leave       12:09       12:00  ...     18:00   
+...          ...                   ...         ...         ...  ...       ...   
+58270 2015-12-16             Non Leave           -       14:30  ...     22:00   
+58271 2015-12-21             Non Leave           -       14:00  ...     18:00   
+58272 2015-11-11             Non Leave           -       10:30  ...     16:30   
+58273 2015-11-09             Non Leave           -       09:30  ...     18:00   
+58274 2015-11-13             Non Leave           -       17:00  ...     21:00   
+
+      Pay End  Break Pay Hours Brk Cnt Sched Hours     Var Employee Type  \
+0       18:00  00:30     05:30       1       05:30       -      Salaried   
+1       18:00  00:30     05:30       1       05:30       -     Part Time   
+2       18:24  00:30     07:39       1       07:30  +00:09        Casual   
+3       12:30      -     04:00       0       04:00       -      Salaried   
+4       18:00  00:30     05:30       1       05:30       -     Part Time   
+...       ...    ...       ...     ...         ...     ...           ...   
+58270       -  00:30         -       1       07:00       -     Part Time   
+58271       -      -         -       0       04:00       -     Part Time   
+58272       -  00:30         -       1       05:30       -        Casual   
+58273       -  00:30         -       1       08:00       -      Salaried   
+58274       -      -         -       0       04:00       -        Casual   
+
+                      Role               Auth.  
+0      Assistant Store Mgr                 NaN  
+1          Sales Assistant  BENILDA PAPASIDERO  
+2          Sales Assistant                 NaN  
+3            Store Manager     BILYANA AMIDZIC  
+4          Sales Assistant         Karen Stone  
+...                    ...                 ...  
+58270      Sales Assistant    LEANNE WAGSTAFFE  
+58271      Sales Assistant    LEANNE WAGSTAFFE  
+58272      Sales Assistant    CAROLINE CAMERON  
+58273        Store Manager           YIN LIANG  
+58274      Sales Assistant      CARLY MEHLFELD  
+
+[58275 rows x 22 columns]"
