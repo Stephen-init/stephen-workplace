@@ -21,4 +21,4 @@ Loopers / Melt / Flat / Group  to generate staging files
 Sentinel Formatting final report 
 
 ## Process
-![alt text](https://github.com/Stephen-init/stephen-workplace/blob/main/image.png?raw=true)
+![alt text](https://github.com/Stephen-init/stephen-workplace/blob/main/image.png)
