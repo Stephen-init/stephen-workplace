@@ -1,7 +1,7 @@
 import pandas as pd
 import datetime,os
 
-class staging:
+class Raw:
     def __init__(self,directory,filter):
         self.directory=directory
         self.filter=filter
@@ -25,51 +25,49 @@ class staging:
                 inputs_dict[filename.split("\\")[-1]]=myfile
         return inputs_dict
 
-
-
-def transform_reporting(directory,broken_files,drop_columns,reporting_columns,rename_columns,pluginlist=''):
-    reporting_df = read_files(directory,broken_files,drop_columns,rename_columns) 
-    ### reporting lines
-    for col_list in reporting_columns:
-        new_col = col_list[0]
-        old_col = col_list[1]
-        data_type_change = col_list[2]
-        not_repurpose = col_list[3]
-        ### date cleaning
-        if data_type_change == 'date' and not_repurpose == 'repurpose' and old_col in reporting_df.columns:
-            reporting_df[new_col] = reporting_df[old_col] 
-            reporting_df[new_col] = pd.to_datetime(reporting_df[new_col], errors='coerce', dayfirst=True)
-        ### time cleaning
-        if data_type_change == 'time' and not_repurpose == 'repurpose' and old_col in reporting_df.columns:
-            reporting_df[new_col] = reporting_df[old_col]
-            reporting_df[new_col] = pd.to_datetime(reporting_df[new_col], format = '%H:%M', errors='coerce').datetime.time
-            reporting_df[new_col].fillna(pd.to_datetime(reporting_df[old_col], format = '%H:%M:%S', errors='coerce').datetime.time, inplace=True)
-            reporting_df[new_col].fillna(pd.to_datetime(reporting_df[old_col], format = '%Y%m%d %H:%M:%S', errors='coerce').datetime.time, inplace=True)
-         ### string repurpose
-        if data_type_change == 'string' and not_repurpose == 'repurpose' and old_col in reporting_df.columns:
-            reporting_df[new_col] = reporting_df[old_col]
-            reporting_df[new_col].fillna(0, inplace=True)
-            try:
-                reporting_df[new_col] = reporting_df[new_col].astype(int)
-                reporting_df[new_col] = reporting_df[new_col].astype(str) 
-            except ValueError:
-                reporting_df[new_col] = reporting_df[new_col].astype(str)      
-        if data_type_change == 'string' and not_repurpose == 'new' and new_col == 'Reporting_Award' and old_col in reporting_df.columns:
-            reporting_df[new_col] = 'GRIA' 
-        #### work out monthly W/F/M 
-        if data_type_change == 'date' and not_repurpose == 'new' and  new_col == 'Reporting_PeriodStartDate' and old_col in reporting_df.columns:
-            reporting_df[new_col] = reporting_df[old_col] 
-            reporting_df[new_col] = pd.to_datetime(reporting_df[new_col], errors='coerce', dayfirst=True)
-            reporting_df[new_col] = reporting_df.apply(pp_dateset, axis = 1)
-    try:
-        if pluginlist is None:
-            pass
-        else:
-            for i in pluginlist:
-                i(reporting_df)
-    except ValueError:
-        print('Plugin' + i + 'failed to run')                  
-    return reporting_df
+    def transform_reporting(directory,broken_files,drop_columns,reporting_columns,rename_columns,pluginlist=''):
+        reporting_df = read_files(directory,broken_files,drop_columns,rename_columns) 
+        ### reporting lines
+        for col_list in reporting_columns:
+            new_col = col_list[0]
+            old_col = col_list[1]
+            data_type_change = col_list[2]
+            not_repurpose = col_list[3]
+            ### date cleaning
+            if data_type_change == 'date' and not_repurpose == 'repurpose' and old_col in reporting_df.columns:
+                reporting_df[new_col] = reporting_df[old_col] 
+                reporting_df[new_col] = pd.to_datetime(reporting_df[new_col], errors='coerce', dayfirst=True)
+            ### time cleaning
+            if data_type_change == 'time' and not_repurpose == 'repurpose' and old_col in reporting_df.columns:
+                reporting_df[new_col] = reporting_df[old_col]
+                reporting_df[new_col] = pd.to_datetime(reporting_df[new_col], format = '%H:%M', errors='coerce').datetime.time
+                reporting_df[new_col].fillna(pd.to_datetime(reporting_df[old_col], format = '%H:%M:%S', errors='coerce').datetime.time, inplace=True)
+                reporting_df[new_col].fillna(pd.to_datetime(reporting_df[old_col], format = '%Y%m%d %H:%M:%S', errors='coerce').datetime.time, inplace=True)
+            ### string repurpose
+            if data_type_change == 'string' and not_repurpose == 'repurpose' and old_col in reporting_df.columns:
+                reporting_df[new_col] = reporting_df[old_col]
+                reporting_df[new_col].fillna(0, inplace=True)
+                try:
+                    reporting_df[new_col] = reporting_df[new_col].astype(int)
+                    reporting_df[new_col] = reporting_df[new_col].astype(str) 
+                except ValueError:
+                    reporting_df[new_col] = reporting_df[new_col].astype(str)      
+            if data_type_change == 'string' and not_repurpose == 'new' and new_col == 'Reporting_Award' and old_col in reporting_df.columns:
+                reporting_df[new_col] = 'GRIA' 
+            #### work out monthly W/F/M 
+            if data_type_change == 'date' and not_repurpose == 'new' and  new_col == 'Reporting_PeriodStartDate' and old_col in reporting_df.columns:
+                reporting_df[new_col] = reporting_df[old_col] 
+                reporting_df[new_col] = pd.to_datetime(reporting_df[new_col], errors='coerce', dayfirst=True)
+                reporting_df[new_col] = reporting_df.apply(pp_dateset, axis = 1)
+        try:
+            if pluginlist is None:
+                pass
+            else:
+                for i in pluginlist:
+                    i(reporting_df)
+        except ValueError:
+            print('Plugin' + i + 'failed to run')                  
+        return reporting_df
 
 
 
