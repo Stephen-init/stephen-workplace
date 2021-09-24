@@ -17,11 +17,11 @@ class Raw:
                         ]                 
         return files_list
 
-    def read_files(self):
+    def read_files(self,readrows=None):
         inputs_dict={}
         for filename in self.folder_reader():
             if filename.endswith(".xlsx"):
-                myfile=pd.read_excel(filename)
+                myfile=pd.read_excel(filename,nrows=readrows)
                 inputs_dict[filename.split("\\")[-1]]=myfile
         return inputs_dict
 
