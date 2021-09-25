@@ -1,5 +1,11 @@
 user={
-        'stephen': r'C:\Users\steph\Yellow Canary\Yellow Canary - Documents\Clients\Projects\HSF\Sunflower\01_Data'
+        'stephen':{'raw': r'C:\Users\steph\Yellow Canary\Yellow Canary - Documents\Clients\Projects\HSF\Sunflower\01_Data',
+                   'test': r'E:\stephen-workspace\Tests',
+                   'exception': r'C:\Users\steph\Yellow Canary\Yellow Canary - Documents\Clients\Projects\HSF\Sunflower\01_Data',
+                   'staging': r'C:\Users\steph\Yellow Canary\Yellow Canary - Documents\Clients\Projects\HSF\Sunflower\01_Data',
+                   'final': r'C:\Users\steph\Yellow Canary\Yellow Canary - Documents\Clients\Projects\HSF\Sunflower\01_Data'
+                   }
+
 }
 
 
@@ -135,4 +141,5 @@ plugins={
                                   'ref_value':{'W':6,'F':13,'M':'start'} #for month, set to start
                                   }
         }
+
 }
