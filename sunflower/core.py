@@ -22,7 +22,10 @@ class Raw:
         for filename in self.folder_reader():
             if filename.endswith(".xlsx"):
                 myfile=pd.read_excel(filename,nrows=readrows)
-                inputs_dict[filename.split("\\")[-1]]=myfile
+                inputs_dict[filename.split("/")[-1]]=myfile
+            else:
+                myfile=pd.read_csv(filename,nrows=readrows)
+                inputs_dict[filename.split("/")[-1]]=myfile
         return inputs_dict
 
     def transform_reporting(directory,broken_files,drop_columns,reporting_columns,rename_columns,pluginlist=''):

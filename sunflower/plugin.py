@@ -22,3 +22,24 @@ class TransformReportingSup:
             else:
                 self.df['Reporting_PeriodStartDate']=self.df.loc[self.df[ref_col]==key]['Reporting_PeriodStartDate'].replace(day=1)
         return self.df
+
+    def extract_features_from_description(df, 
+                                      column_name,
+                                      new_feature_name, 
+                                      extract_words):
+        # function to extract features from the column_name
+        # searches column_name feature for a given list
+        # ASSUMPTION: There is no NA values
+        # in the description feature
+        check_regex = (r'\b(?:{})\b'
+                    .format('|'
+                            .join(
+                                map(re.escape,
+                                    extract_words))))
+
+        df[new_feature_name] = (df[column_name]
+                                .strß
+                                .contains(check_regex,
+                                        regex=True)
+                                .astype('uint8'))
+        return df

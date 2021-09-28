@@ -1,5 +1,5 @@
 user={
-        'stephen':{'raw': r'C:\Users\steph\Yellow Canary\Yellow Canary - Documents\Clients\Projects\HSF\Sunflower\01_Data',
+        'stephen':{'raw': r"/Users/stephen/Yellow Canary/Yellow Canary - Documents/Clients/Projects/HSF/Sunflower/01_Data",
                    'test': r'E:\stephen-workspace\Tests',
                    'exception': r'C:\Users\steph\Yellow Canary\Yellow Canary - Documents\Clients\Projects\HSF\Sunflower\01_Data',
                    'staging': r'C:\Users\steph\Yellow Canary\Yellow Canary - Documents\Clients\Projects\HSF\Sunflower\01_Data',
@@ -73,6 +73,38 @@ timesheets={
                     ]
         }
 
+tests={
+    'files':{
+            'include':['dataset'],
+            'exclude':['sample','sunflower'],
+            'broken':[]
+            },
+    'columns' : {
+                'include':[],
+                'drop': [],
+                'add':[],
+                'rename':{
+                        'HoursorADCodeDesc': ['HoursorA/DCodeDesc']
+                        ,'HoursorADCode': ['HoursorA/DCode']
+                }},
+    'staging' : [
+                ['Reporting_EmployeeCode','IDNumber','string']
+                ,['Reporting_PayslipCode','payperiod_id','string']
+                ,['Reporting_PaysliplineCode','row_source_id','string']
+                ,['Reporting_PeriodStartDate','PeriodEndingDate','date']
+                ,['Reporting_PeriodEndDate','PeriodEndingDate','date']
+                ,['Reporting_Paycode','HoursorADCodeDesc','string']
+                ,['Reporting_Hours','NumberofUnits','float']
+                ,['Reporting_Amount','Value','float']
+                ,['Reporting_Classification','HoursorADCodeDesc','string']
+                ,['Reporting_EmployeeType','EmploymentTypeCodeDesc','string']
+                ,['Reporting_EmployeeClassication','JobTitleCodeDescription','string']
+                ,['Reporting_DateOfBirth','DateofBirth','date']
+                ,['Reporting_BaseHours','BaseHours','string']
+                ,['Reporting_Source','file_name','string']
+                ,['Reporting_Site','AccountCodeDescription','string']
+                ]
+        }
 
 final_report={
                 'configuration': 'ClientId',

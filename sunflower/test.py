@@ -40,9 +40,39 @@ class RawTest:
                                 data=file_col
                                 )
         return test_result
+
+    def missing_values_table(self):
+        sample_dict=copy.deepcopy(self.sample)
+        dict_instance=[]
+        for i in sample_dict:
+            if isinstance(sample_dict[i], dict):
+                dict_instance.append(i)
+        for i in dict_instance:
+            sample_dict.pop(i,None) 
         
+        for i in sample_dict:
+            mis_val = sample_dict[i].isnull().sum()
+            mis_val_percent = 100 * sample_dict[i].isnull().sum() / len(sample_dict[i])
+            mis_val_table = pd.concat([mis_val, mis_val_percent],
+                                    axis=1)
+            mis_val_table_ren_columns = mis_val_table.rename(
+                columns={0: 'Missing Values', 1: '% of Total Values'})
 
+            mis_val_table_ren_columns = (mis_val_table_ren_columns[
+                mis_val_table_ren_columns.iloc[:, 1] != 0].sort_values(
+                '% of Total Values', ascending=False).round(1))
+            mis_val_table_ren_columns['file']=i.split("/")[-1]
 
+        return mis_val_table_ren_columns
+
+    def CleanData(df, drop_columns, target_name):
+        interim_df = df.drop(columns=drop_columns)
+        interim_df_2 = (interim_df
+                        .drop_duplicates(ignore_index=True))
+        cleaned_df = (interim_df_2
+                        .dropna(subset=[target_name], how="any")
+                        .reset_index(drop=True))
+        return cleaned_df
 
 
                    
